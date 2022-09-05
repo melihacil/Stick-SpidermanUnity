@@ -5,7 +5,7 @@ using UnityEngine;
 public class CamFollow : MonoBehaviour
 {
 
-    [SerializeField]private Transform player;
+    [SerializeField]private Transform player = null;
 
 
     private Vector3 offset;
@@ -16,9 +16,10 @@ public class CamFollow : MonoBehaviour
         offset = transform.position - player.position;
     }
 
-    // Update is called once per frame
-    void Update()
+    // Late update is called after updates are complete
+    //Meaning player has completed its movement 
+    void LateUpdate()
     {
-        transform.position = Vector3.Lerp(transform.position, transform.position + offset, Time.deltaTime * 3);
+        transform.position = Vector3.Lerp(transform.position, new Vector3(player.position.x,player.position.y,0) + offset, Time.deltaTime * 3);
     }
 }
