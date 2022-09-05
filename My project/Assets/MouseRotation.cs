@@ -25,7 +25,7 @@ public class MouseRotation : MonoBehaviour
         
         this.transform.rotation = Quaternion.Euler(this.transform.rotation.x, this.transform.rotation.y, AngleDeg);
         //this.transform.position= new Vector3(point.position.x,this.transform.position.y, transform.position.z);
-        transform.position = point.position;
+        //transform.position = point.position;
         otherHand.rotation = this.transform.rotation;
     }
 }

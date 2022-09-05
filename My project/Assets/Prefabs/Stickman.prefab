@@ -983,6 +983,7 @@ GameObject:
   - component: {fileID: 8265524913401327433}
   - component: {fileID: 8265524913401327430}
   - component: {fileID: 8265524913401327431}
+  - component: {fileID: 2196024265035457999}
   m_Layer: 6
   m_Name: RightH-1
   m_TagString: Untagged
@@ -1129,6 +1130,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2196024265035457999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8265524913401327429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd3e57f6ac208ca40abcbc343abcf43f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootingPointTransform: {fileID: 6964977174950807859}
+  otherHand: {fileID: 8265524912508228259}
+  point: {fileID: 0}
 --- !u!1 &8265524913423835488
 GameObject:
   m_ObjectHideFlags: 0
