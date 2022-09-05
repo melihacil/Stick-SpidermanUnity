@@ -371,30 +371,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8265524914534827247, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
   m_PrefabInstance: {fileID: 8265524913891123553}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1387197377 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8265524912508228256, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
-  m_PrefabInstance: {fileID: 8265524913891123553}
-  m_PrefabAsset: {fileID: 0}
 --- !u!50 &1387197381 stripped
 Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 8265524912508228260, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
   m_PrefabInstance: {fileID: 8265524913891123553}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1387197383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1387197377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd3e57f6ac208ca40abcbc343abcf43f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shootingPointTransform: {fileID: 2038678047}
-  otherHand: {fileID: 1878150693}
 --- !u!1 &1651961130
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,11 +492,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8265524913401327429, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
   m_PrefabInstance: {fileID: 8265524913891123553}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1878150693 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8265524913401327428, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
-  m_PrefabInstance: {fileID: 8265524913891123553}
-  m_PrefabAsset: {fileID: 0}
 --- !u!233 &1878150698
 HingeJoint2D:
   m_ObjectHideFlags: 0
@@ -540,11 +516,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!4 &2038678047 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6964977174950807859, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
-  m_PrefabInstance: {fileID: 8265524913891123553}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8265524913891123553
 PrefabInstance:
   m_ObjectHideFlags: 0
