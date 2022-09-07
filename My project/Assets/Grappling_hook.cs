@@ -3,7 +3,7 @@ using UnityEngine;
 public class Grappling_Hook : MonoBehaviour
 {
     [Header("General Refernces:")]
-    public Tutorial_GrapplingGun grapplingGun;
+    public Grapple_Gun grapplingGun;
     public LineRenderer m_lineRenderer;
 
     [Header("General Settings:")]
