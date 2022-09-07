@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Grappling_Hook : MonoBehaviour
+public class Grappling_hook : MonoBehaviour
 {
     [Header("General Refernces:")]
     public Grapple_Gun grapplingGun;
@@ -36,7 +36,7 @@ public class Grappling_Hook : MonoBehaviour
 
         m_lineRenderer.enabled = true;
     }
-
+    //
     private void OnDisable()
     {
         m_lineRenderer.enabled = false;

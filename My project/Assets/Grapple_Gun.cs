@@ -3,7 +3,7 @@ using UnityEngine;
 public class Grapple_Gun : MonoBehaviour
 {
     [Header("Scripts Ref:")]
-    public Grappling_Hook grappleRope;
+    public Grappling_hook grappleRope;
 
     [Header("Layers Settings:")]
     [SerializeField] private bool grappleToAll = false;
