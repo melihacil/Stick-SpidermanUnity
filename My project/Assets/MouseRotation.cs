@@ -34,10 +34,8 @@ public class MouseRotation : MonoBehaviour
             lineRenderer.positionCount = 2;
             lineRenderer.SetPosition(0,shootingPointTransform.position);
             lineRenderer.SetPosition(1,mouse);
-
-
-
         }
+
 
         //this.transform.position= new Vector3(point.position.x,this.transform.position.y, transform.position.z);
         //transform.position = point.position;
