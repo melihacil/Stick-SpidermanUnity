@@ -445,49 +445,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8265524914534827247, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
   m_PrefabInstance: {fileID: 8265524913891123553}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1051935248 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4465478571083191292, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
-  m_PrefabInstance: {fileID: 8265524913891123553}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1051935249 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3931642115333494329, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
-  m_PrefabInstance: {fileID: 8265524913891123553}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1051935250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1051935248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bb846cff8dadcc458ce971d0735bea9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  grappleRope: {fileID: 1580092460}
-  grappleToAll: 1
-  grappableLayerNumber: 9
-  m_camera: {fileID: 519420031}
-  gunHolder: {fileID: 1878150699}
-  gunPivot: {fileID: 1051935249}
-  firePoint: {fileID: 1051935249}
-  m_springJoint2D: {fileID: 463223123}
-  m_rigidbody: {fileID: 1878150703}
-  rotateOverTime: 1
-  rotationSpeed: 4
-  hasMaxDistance: 0
-  maxDistnace: 20
-  launchToPoint: 1
-  launchType: 1
-  launchSpeed: 1
-  autoConfigureDistance: 0
-  targetDistance: 3
-  targetFrequncy: 1
-  grapplePoint: {x: 0, y: 0}
-  grappleDistanceVector: {x: 0, y: 0}
 --- !u!1 &1090891282
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,54 +549,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090891282}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.99, y: 2.33, z: 0}
+  m_LocalPosition: {x: 5.58, y: 4.19, z: 0}
   m_LocalScale: {x: 10, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1580092457 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8401714282749045835, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
-  m_PrefabInstance: {fileID: 8265524913891123553}
-  m_PrefabAsset: {fileID: 0}
---- !u!120 &1580092459 stripped
-LineRenderer:
-  m_CorrespondingSourceObject: {fileID: 3922078631173284895, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
-  m_PrefabInstance: {fileID: 8265524913891123553}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1580092460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1580092457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1ea08e23d698244fb6e7467f7f0a3f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  grapplingGun: {fileID: 1051935250}
-  m_lineRenderer: {fileID: 1580092459}
-  percision: 40
-  straightenLineSpeed: 5
-  ropeAnimationCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  StartWaveSize: 2
-  ropeProgressionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  ropeProgressionSpeed: 1
-  isGrappling: 1
 --- !u!1 &1651961130
 GameObject:
   m_ObjectHideFlags: 0
@@ -756,11 +672,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8265524913401327428, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
   m_PrefabInstance: {fileID: 8265524913891123553}
   m_PrefabAsset: {fileID: 0}
---- !u!50 &1878150703 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 8265524913401327433, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
-  m_PrefabInstance: {fileID: 8265524913891123553}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8265524913891123553
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -768,6 +679,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2196024265035457999, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3922078631173284895, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
       propertyPath: m_Parameters.numCapVertices
       value: 10
@@ -822,11 +737,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3931642115333494329, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.44
+      value: 0.688
       objectReference: {fileID: 0}
     - target: {fileID: 3931642115333494329, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.46
+      value: -0.08
       objectReference: {fileID: 0}
     - target: {fileID: 6964977174950807859, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -882,7 +797,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8265524914534827247, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.032200824
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8265524914534827247, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -912,5 +827,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3922078631173284895, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b9cd86a2d1c2fac4b84629761d00f2e9, type: 3}
