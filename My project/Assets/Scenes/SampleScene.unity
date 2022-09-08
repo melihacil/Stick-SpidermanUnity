@@ -1186,7 +1186,7 @@ MonoBehaviour:
   hasMaxDistance: 0
   maxDistnace: 20
   launchToPoint: 1
-  launchType: 1
+  launchType: 0
   launchSpeed: 1
   autoConfigureDistance: 1
   targetDistance: 3
