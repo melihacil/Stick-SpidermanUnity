@@ -9,6 +9,7 @@ public class MouseRotation : MonoBehaviour
     [SerializeField] private Transform otherHand;
     [SerializeField] private Transform point;
     [SerializeField] private LineRenderer lineRenderer;
+    [SerializeField] private DistanceJoint2D distanceJoint2D;
 
     public Transform startPoint;
     // Start is called before the first frame update
