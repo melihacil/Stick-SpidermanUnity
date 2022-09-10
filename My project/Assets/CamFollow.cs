@@ -10,16 +10,17 @@ public class CamFollow : MonoBehaviour
 
     private Vector3 offset;
 
+    private float offsetz;
     // Start is called before the first frame update
     void Start()
     {
-        offset = transform.position - player.position;
+        offsetz = transform.position.z - player.position.z;
     }
 
     // Late update is called after updates are complete
     //Meaning player has completed its movement 
     void LateUpdate()
     {
-        transform.position = Vector3.Lerp(transform.position, new Vector3(player.position.x,player.position.y,0) + offset, Time.deltaTime * 3);
+        transform.position = Vector3.Lerp(transform.position, new Vector3(player.position.x,0,offsetz), Time.deltaTime * 3);
     }
 }
